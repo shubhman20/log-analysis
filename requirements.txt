@@ -1,0 +1,6 @@
+Flask==2.3.2
+pandas==1.5.1
+reportlab==4.0.4
+Requests==2.31.0
+spacy==3.6.1
+streamlit==1.13.0
