@@ -15,7 +15,7 @@ class ComplianceMonitor:
     def __init__(self, rule_definitions, compliance_standards):
         self.rule_definitions = rule_definitions
         self.compliance_standards = compliance_standards
-        self.nlp = spacy.load("en_core_web_sm")
+        self.nlp = spacy.load("en_core_web_lg")
 
     def extract_entities(self, text):
         doc = self.nlp(text)
